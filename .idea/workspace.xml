@@ -4,31 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="小区管理结束">
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseBrokerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseBrokerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseImageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseBrokerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseUserServiceImpl.java" afterDir="false" />
+    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="房源管理 // 到经纪人详情">
       <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseBrokerDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseImageDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseBrokerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseBroker/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseBroker/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseUser/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/houseUser/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/atguigu/service/impl/AdminServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/mapper/AdminDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/mapper/AdminDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Project/LivingSystem/web/web-admin/src/main/webapp/WEB-INF/templates/house",
+    "last_opened_file_path": "C:/Project/calc-switch-parent",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -272,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677485017531</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="房源管理 // 到经纪人详情">
+      <created>1677488253010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677488253010</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +281,7 @@
     <MESSAGE value="界面配置除了数据库密码之外的 数据字典功能" />
     <MESSAGE value="dict 字段相关的开发完成" />
     <MESSAGE value="小区管理结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="小区管理结束" />
+    <MESSAGE value="房源管理 // 到经纪人详情" />
+    <option name="LAST_COMMIT_MESSAGE" value="房源管理 // 到经纪人详情" />
   </component>
 </project>

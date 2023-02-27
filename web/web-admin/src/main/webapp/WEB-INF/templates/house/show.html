@@ -166,5 +166,33 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(function(){
+        $(".createBroker").on("click",function () {
+            opt.openWin('/houseBroker/create?houseId=[[${house.id}]]','新增经纪人',630,300)
+        });
+        $(".editBroker").on("click",function () {
+            var id = $(this).attr("data-id");
+            opt.openWin('/houseBroker/edit/' + id,'修改经纪人',630,300);
+        });
+        $(".deleteBroker").on("click",function(){
+            var id = $(this).attr("data-id");
+            opt.confirm('/houseBroker/delete/[[${house.id}]]/'+id);
+        });
+        $(".createUser").on("click",function () {
+            opt.openWin('/houseUser/create?houseId=[[${house.id}]]','新增房东',630,430)
+        });
+        $(".editUser").on("click",function () {
+            var id = $(this).attr("data-id");
+            opt.openWin('/houseUser/edit/' + id,'修改房东',630,430);
+        });
+        $(".deleteUser").on("click",function(){
+            var id = $(this).attr("data-id");
+            opt.confirm('/houseUser/delete/[[${house.id}]]/'+id);
+        });
+    });
+
+</script>
+
 </body>
 </html>
