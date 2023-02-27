@@ -1,5 +1,7 @@
 package com.atguigu.controller;
 
+import com.github.pagehelper.StringUtil;
+
 import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;
 import java.util.Map;
@@ -28,5 +30,19 @@ public class BaseController {
         }
 
         return filters;
+    }
+
+    private final static String PAGE_SUCCESS = "common/successPage";
+    //提示信息
+    public final static String MESSAGE_SUCCESS = "操作成功！";
+
+    /**
+     * 成功页
+     * @param message
+     * @param request
+     */
+    protected String successPage(String message, HttpServletRequest request) {
+        request.setAttribute("messagePage", StringUtil.isEmpty(message) ? MESSAGE_SUCCESS : message);
+        return PAGE_SUCCESS;
     }
 }

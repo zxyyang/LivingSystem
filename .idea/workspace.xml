@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="经纪人详情">
-      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/util/QiniuUtils.java" afterDir="false" />
+    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="七牛云上传">
       <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/HouseImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/controller/BaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/house/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/demo/webuploader-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/demo/webuploader-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677489085614</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="七牛云上传">
+      <created>1677494944111</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677494944111</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +312,7 @@
     <MESSAGE value="小区管理结束" />
     <MESSAGE value="房源管理 // 到经纪人详情" />
     <MESSAGE value="经纪人详情" />
-    <option name="LAST_COMMIT_MESSAGE" value="经纪人详情" />
+    <MESSAGE value="七牛云上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="七牛云上传" />
   </component>
 </project>
