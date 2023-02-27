@@ -41,4 +41,16 @@ public class DictServiceImpl implements DictService {
         };
         return zNodes;
     }
+
+    @Override
+    public List<Dict> findListByParentId(Long parentId) {
+        return dictDao.findListByParentId(parentId);
+    }
+
+    @Override
+    public List<Dict> findListByDictCode(String dictCode) {
+        Dict dict = dictDao.getByDictCode(dictCode);
+        if(null == dict) return null;
+        return this.findListByParentId(dict.getId());
+    }
 }

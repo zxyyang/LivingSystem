@@ -7,8 +7,11 @@
     <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="界面配置除了数据库密码之外的 数据字典功能">
       <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/DictService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/frame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/frame/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/DictDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/DictDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/DictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/DictDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/DictDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677480037972</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="界面配置除了数据库密码之外的 数据字典功能">
+      <created>1677483345505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483345505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +238,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="界面配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="界面配置" />
+    <MESSAGE value="界面配置除了数据库密码之外的 数据字典功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="界面配置除了数据库密码之外的 数据字典功能" />
   </component>
 </project>

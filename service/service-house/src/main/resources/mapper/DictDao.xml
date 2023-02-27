@@ -5,13 +5,24 @@
 
 <mapper namespace="com.atguigu.dao.DictDao">
 
+    <!--映射: (ORM) Object Relationship Mapping-->
+    <resultMap id="Dict" type="Dict">
+        <id property="id" column="id"></id>
+        <result column="parent_id" property="parentId" ></result>
+        <result column="name" property="name" ></result>
+        <result column="dict_code" property="dictCode" ></result>
+        <result column="create_time" property="createTime" ></result>
+        <result column="update_time" property="updateTime" ></result>
+        <result column="is_deleted" property="isDeleted" ></result>
+    </resultMap>
+
     <!-- 用于select查询公用抽取的列 -->
     <sql id="columns">
         select id,parent_id,name,dict_code,create_time,update_time,is_deleted
     </sql>
 
     <!--根据父节点的id查询它所有的子节点-->
-    <select id="findListByParentId" resultType="dict">
+    <select id="findListByParentId" resultType="Dict">
         <include refid="columns"></include>
         from hse_dict
         where parent_id = #{parentId}
@@ -22,4 +33,21 @@
         select count(*) from hse_dict
         where parent_id = #{parentId}
     </select>
+
+
+    <!--通过name获取id-->
+    <select id="getNameById" parameterType="long" resultType="string">
+        select name
+        from hse_dict
+        where id = #{id}
+    </select>
+
+
+    <select id="getByDictCode" resultMap="Dict">
+        <include refid="columns" />
+        from hse_dict
+        where
+        dict_code = #{dictCode}
+    </select>
+
 </mapper>
