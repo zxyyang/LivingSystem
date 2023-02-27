@@ -4,13 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="七牛云上传">
+    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="上传头像">
       <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/atguigu/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/controller/HouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/spring/spring-registry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/follow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/5c89d517-a720-4053-84ec-45fa22d1627d.jpg.480x640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/832c9fdc-e770-416d-8ae4-cc17e294049e.jpg.480x640.jpg.55x55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/adb503d4-3b05-4574-a61a-e5efbd39ec47.png.480x640.jpg.55x55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_22eFgul7w_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_38Hem1dwa_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_WqtUHOjF0_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/backtop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/black60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/d61bd0db-9b94-4199-85e1-8360606f9c99.jpg.480x640.jpg.55x55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fangt1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-1.bac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/pc0_GThKMHeTe_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/pc1_dchE3H5xX_1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/phone2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/procar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/proxujian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/shopbg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/standard_f1ba9c2f-a917-421d-ad0f-2a6048a0d0d7.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/titlebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/tx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipTitlebg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/weizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/wuxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xiugai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xunzhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +143,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Project/calc-switch-parent",
+    "last_opened_file_path": "C:/Project/LivingSystem/web/web-front/src/main/webapp/static/js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,11 +161,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\LivingSystem\web\web-front\src\main\webapp\static\js" />
+      <recent name="C:\Project\LivingSystem\web\web-front\src\main\webapp" />
+      <recent name="C:\Project\LivingSystem\web" />
       <recent name="C:\Project\LivingSystem\web\web-admin\src\main\webapp\WEB-INF\templates\house" />
       <recent name="C:\Project\LivingSystem\web\web-admin\src\main\webapp\WEB-INF\templates" />
-      <recent name="C:\Project\LivingSystem\service\service-house\src\main\resources\mapper" />
-      <recent name="C:\Project\LivingSystem\web\web-admin\src\main\webapp\static\js\plugins" />
-      <recent name="C:\Project\LivingSystem\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.util" />
@@ -298,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677494944111</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="上传头像">
+      <created>1677495357610</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677495357610</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +400,7 @@
     <MESSAGE value="房源管理 // 到经纪人详情" />
     <MESSAGE value="经纪人详情" />
     <MESSAGE value="七牛云上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="七牛云上传" />
+    <MESSAGE value="上传头像" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传头像" />
   </component>
 </project>
