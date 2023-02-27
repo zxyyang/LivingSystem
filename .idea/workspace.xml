@@ -4,40 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="界面配置">
-      <change afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/DictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/DictDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/DictServiceImpl.java" afterDir="false" />
+    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="界面配置除了数据库密码之外的 数据字典功能">
       <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/DictDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/spring/spring-registry.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/java/com/atguigu/controller/DictController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/dict/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/jquery.ztree.core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/jquery.ztree.excheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/static/js/plugins/zTree_v3/zTreeStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/frame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/web-admin/src/main/webapp/WEB-INF/templates/frame/index.html" afterDir="false" />
     </list>
@@ -86,31 +55,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Project/LivingSystem/service/service-house",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/LivingSystem/service/service-house&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\LivingSystem\web\web-admin\src\main\webapp\static\js\plugins" />
       <recent name="C:\Project\LivingSystem\service" />
       <recent name="C:\Project\LivingSystem" />
     </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 16 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
