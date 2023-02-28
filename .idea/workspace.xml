@@ -4,93 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="上传头像">
-      <change afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/controller/HouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/java/com/atguigu/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/resources/spring/spring-registry.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/follow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/css/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/css/swiper-bundle.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/5c89d517-a720-4053-84ec-45fa22d1627d.jpg.480x640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/832c9fdc-e770-416d-8ae4-cc17e294049e.jpg.480x640.jpg.55x55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/adb503d4-3b05-4574-a61a-e5efbd39ec47.png.480x640.jpg.55x55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_22eFgul7w_1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_38Hem1dwa_1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/apc_WqtUHOjF0_1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/backtop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/ban.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/black60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/d61bd0db-9b94-4199-85e1-8360606f9c99.jpg.480x640.jpg.55x55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fang8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/fangt1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/icon4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-1.bac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/nature-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/pc0_GThKMHeTe_1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/pc1_dchE3H5xX_1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/phone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/phone2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/procar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/proxujian.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/shopbg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/standard_f1ba9c2f-a917-421d-ad0f-2a6048a0d0d7.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/titlebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/tx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipTitlebg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/vipicon3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/weizhi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/wuxing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xiugai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/images/xunzhang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/swiper-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-front/src/main/webapp/static/js/vue.js" afterDir="false" />
+    <list default="true" id="757ebc65-aa3c-40c5-9812-b9dea6a674a3" name="Changes" comment="最终结果">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/src/main/java/com/atguigu/service/HouseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/dao/HouseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/java/com/atguigu/service/impl/HouseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-house/src/main/resources/mapper/HouseDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,28 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Project/LivingSystem/web/web-front/src/main/webapp/static/js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/shf-parent(完整版)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\LivingSystem\web\web-front\src\main\webapp\static\js" />
@@ -385,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677495357610</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="最终结果">
+      <created>1677496938609</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677496938609</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +323,7 @@
     <MESSAGE value="经纪人详情" />
     <MESSAGE value="七牛云上传" />
     <MESSAGE value="上传头像" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传头像" />
+    <MESSAGE value="最终结果" />
+    <option name="LAST_COMMIT_MESSAGE" value="最终结果" />
   </component>
 </project>

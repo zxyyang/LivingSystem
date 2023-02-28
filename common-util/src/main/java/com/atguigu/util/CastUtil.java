@@ -4,9 +4,6 @@ import com.github.pagehelper.StringUtil;
 
 /**
  * 转型操作工具类
- *
- * @author qy
- * @since 1.0
  */
 public class CastUtil {
 
